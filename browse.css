@@ -1,0 +1,162 @@
+html,
+body {
+    height: auto;
+    max-width: 100%;
+    background-image: url("http://ps11.pstcc.edu/~knoxpassport/browse/img/browseBG3.jpg");
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+	background-attachment: fixed;
+    margin: 0;
+    padding-top: 48.5px;
+	padding-bottom: 20px;
+}
+
+p{
+ color: black;
+ font-family: arial;
+}
+p1 {
+    color: #eeeae5;
+    font-family: Meiryo;
+    font-size: 120%;
+}
+
+.dictP {
+    color: white;
+    font-size: 120%;
+}
+
+
+/* --------MAIN HEADER-------------*/
+.cover-heading {
+	font-size: 275%;
+	color: white;
+}
+ 
+h2, h3 {
+	text-align: center;
+	padding-top: 1px;
+	padding-top: 1px;
+	color: white;
+}  
+h2 {
+	font-size: 200%;
+}
+
+.nav-title {
+    color: #eeeae5;
+    font-family: kaiti;
+    font-size: 130%;
+}
+
+
+/*    div around menu
+===============================*/
+.inner-cover {
+    display: block;
+    margin: 0 auto;
+    background-color: rgb(112, 128, 144);
+    font-family: arial;
+    color: #eeeae5;
+    padding: 20px;
+    width: 95%;
+    text-align: center;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    opacity: 0.922;
+    filter: alpha(opacity=60);
+}
+
+
+/*    push tabs to the right 
+  ============================== */
+.right-tabs .nav {
+    float: right;
+    border-bottom: 1px;
+}
+.right-tabs .nav li { float: left }
+.right-tabs .tab-content {
+    float: left;
+    border-top: 2.5px solid #ddd;
+    margin-top: 1px;
+}
+
+/*    tab style
+  ================== */
+
+.nav-tabs{
+  background-color: #eeeae5;
+}
+.tab-content{
+    background-color: rgb(112, 128, 144);
+    color:white;
+    padding:0px
+}
+.nav-tabs > li > a{
+  border: thin none;
+}
+.nav-tabs > li > a:hover{
+  background-color: #eeeae5 !important;
+    border: thin none;
+    border-radius: 0;
+    color:black;
+}
+
+h5{
+    /*text-align: center; */
+    font-size: 150%;
+    color: white;
+    text-decoration: underline;
+}
+
+/* float glyph in modal footer to left */
+.glyphicon {
+    float: left;
+}
+
+/*----------button styling------------------*/
+.btn {
+        -moz-box-shadow: inset 3px 7px 20px -3px #ffffff;
+        -webkit-box-shadow: inset 3px 7px 20px -3px #ffffff;
+        box-shadow: inset 3px 7px 20px -3px #ffffff;
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #ededed), color-stop(1, #dfdfdf));
+        background: -moz-linear-gradient( center top, #ededed 5%, #dfdfdf 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#dfdfdf');
+        background-color: #ededed;
+        border-radius: 10px;
+        text-indent: 0px;
+        border: 3px solid #0d0d0d;
+        display: inline-block;
+        color: #000000;
+        font-family: Arial;
+        font-size: 18px;
+        font-weight: bold;
+        font-style: normal;
+        height: 45px;
+        line-height: 32px;
+        width: 230px;
+        text-decoration: none;
+        text-align: center;
+        text-shadow: 7px 5px 17px #ffffff;
+		margin-bottom: 2.5px;
+		word-break: break-word;
+		overflow: hidden;
+		text-overflow: ellipsis;
+    }
+    
+.btn:hover {
+        background: -webkit-gradient( linear, left top, left bottom, color-stop(0.05, #dfdfdf), color-stop(1, #ff9e00));
+        background: -moz-linear-gradient( center top, #dfdfdf 5%, #ededed 100%);
+        filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#dfdfdf', endColorstr='#ededed');
+        background-color: #dfdfdf;
+    }
+.btn:active {
+        position: relative;
+        top: 1px;
+    }
+	
+.btn-close {
+	width: 120px;
+}
